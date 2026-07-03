@@ -62,7 +62,23 @@ The dataset is downloaded automatically via `kagglehub` on first run:
 - Source: [khanfashee/nih-chest-x-ray-14-224x224-resized](https://www.kaggle.com/datasets/khanfashee/nih-chest-x-ray-14-224x224-resized)
 - Cached at: `~/.cache/kagglehub/datasets/...`
 
-## Usage
+## Web App (Streamlit)
+
+A standalone Streamlit UI is included for interactive inference:
+
+```bash
+streamlit run app.py
+```
+
+Features:
+- Model selection (DenseNet Frozen, DenseNet Finetuned, Ensemble)
+- Upload chest X-ray (PNG/JPG)
+- Per-disease probability scores with bar chart
+- Disease descriptions, common causes, and radiographic findings
+- Adjustable decision threshold
+- Performance metrics display
+
+## Usage (Notebook)
 
 Open the Jupyter notebook and run cells sequentially:
 
