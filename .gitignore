@@ -16,7 +16,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-
+samples
 # Jupyter Notebook
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
